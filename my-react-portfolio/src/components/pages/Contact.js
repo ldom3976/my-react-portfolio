@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import { validateEmail } from "../../utils/helpers";
+
 function Form() {
   const [email, setEmail] = useState("");
   const [Name, setName] = useState("");
@@ -47,6 +49,49 @@ function Form() {
     setMessage("");
     setEmail("");
   };
-}
+};
+
+return (
+  <div>
+    <h2>Contact</h2>
+    
+    <form className="form">
+      <div>
+      <input
+        value={email}
+        name="email"
+        onChange={handleInputChange}
+        type="email"
+        placeholder="email"
+      />
+      </div>
+      <div>
+      <input
+        value={Name}
+        name="Name"
+        onChange={handleInputChange}
+        type="text"
+        placeholder="name"
+      />
+      </div>
+      <input
+        value={message}
+        name="message"
+        onChange={handleInputChange}
+        type="message"
+        placeholder="message"
+      />
+      <div>
+      <button type="button" onClick={handleFormSubmit}>Submit</button>
+      </div>
+    </form>
+    {errorMessage && (
+      <div>
+        <p className="error-text">{errorMessage}</p>
+      </div>
+    )}
+  </div>
+);
+
 
 export default Form;
