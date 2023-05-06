@@ -3,6 +3,8 @@ import Header from './Header';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './Footer';
+import '../style/style.css';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -19,3 +21,13 @@ export default function PortfolioContainer() {
         }
     }
 };
+
+const handlePageChange = (page) => setCurrentPage(page);
+
+return (
+  <div className='body'>
+    <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+    {renderPage()}
+    <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
+  </div>
+);
