@@ -4,7 +4,7 @@ import React from 'react';
    return (
      <ul className="nav">
        <li className="nav-item">
-       <a href="https://github.com/ldom3976">
+       <a href="https://github.com/ldom3976" target="blank">
         GitHub
        </a>
        </li>
