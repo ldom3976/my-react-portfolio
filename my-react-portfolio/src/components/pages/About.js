@@ -10,13 +10,22 @@ const styles = {
     maxWidth: '200px',
     borderRadius: '25%',
     border: '3px solid',
+    filter: 'opacity(100%)',
+    cursor: 'default',
+  },
+  h2: {
+    textAlign: 'center',
+  },
+  space: {
+    paddingLeft: '0.5rem',
+    paddingRight: '0.5rem',
   }
 };
 
  export default function About() {
    return (
-     <div>
-       <h2>About Me</h2>
+     <div style={styles.space}>
+       <h2 style={styles.h2}>About Me</h2>
        <div>
         <img style={styles.elishaballard} src={ElishaBallard} alt="Elisha Ballard" />
        </div>
