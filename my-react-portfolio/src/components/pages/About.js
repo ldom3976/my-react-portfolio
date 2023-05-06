@@ -1,12 +1,24 @@
 import React from 'react';
 import ElishaBallard from "../../img/elishaballard.jpg";
 
+const styles = {
+  elishaballard: {
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    maxHeight: '200px',
+    maxWidth: '200px',
+    borderRadius: '25%',
+    border: '3px solid',
+  }
+};
+
  export default function About() {
    return (
      <div>
        <h2>About Me</h2>
        <div>
-        <img src={ElishaBallard} alt="Elisha Ballard" />
+        <img style={styles.elishaballard} src={ElishaBallard} alt="Elisha Ballard" />
        </div>
        <p>
          I am a UNC Chapel Hill Bootcamp student who's currently learning full-stack web development. Cuurently 
