@@ -20,7 +20,8 @@ export default function PortfolioContainer() {
         if (currentPage === 'Contact') {
           return <Contact />;
         }
-    }
+        return <Resume />;
+      
 };
 
 const handlePageChange = (page) => setCurrentPage(page);
@@ -32,3 +33,4 @@ return (
     <Footer currentPage={currentPage} handlePageChange={handlePageChange} />
   </div>
 );
+}
