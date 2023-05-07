@@ -34,6 +34,7 @@ function Header({ currentPage, handlePageChange }) {
               About
             </a>
           </li>
+
           <li style={styles.padding}  className="nav-item">
           <a
             href="#portfolio"
@@ -45,8 +46,9 @@ function Header({ currentPage, handlePageChange }) {
                 Portfolio
               </a>
             </li>
+
             <li style={styles.padding} className="nav-item">
-          <a
+            <a
             href="#contact"
             onClick={() => handlePageChange("Contact")}
             className={
@@ -56,8 +58,9 @@ function Header({ currentPage, handlePageChange }) {
                   Contact
                 </a>
               </li>
-              <li style={styles.padding} className="nav-item">
-          <a
+
+            <li style={styles.padding} className="nav-item">
+            <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}
             className={
@@ -67,9 +70,9 @@ function Header({ currentPage, handlePageChange }) {
                     Resume
                   </a>
                 </li>
-              </ul>
-              </nav>
-            );
-          }
+            </ul>
+          </nav>
+        );
+      }
          
-          export default Header;
+      export default Header;
