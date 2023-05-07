@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const styles = {
   h2: {
@@ -10,6 +10,7 @@ const styles = {
   space: {
     paddingLeft: "0.5rem",
     paddingRight: "0.5rem",
+    textAlign: "center"
   },
   h3: {
     paddingTop: "0.75rem",
@@ -26,25 +27,26 @@ const styles = {
 
       <h3 style={styles.h3}>Technical Skills Learned through Coding Bootcamp</h3>
       <p>
-        <h4>Front-End</h4>
-        <ul>
+        <h4>Front-End:</h4>
+        
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
           <li>JQuery</li>
           <li>Bootstrap</li>
           <li>React</li>
-        </ul>
+        
       </p>
+
       <p>
         <h4>Back-End</h4>
-        <ul>
+        
           <li>MySQL</li>
           <li>MongoDB & Mongoose</li>
           <li>Express</li>
           <li>Node</li>
           <li>APIs</li>
-        </ul>
+        
       </p>
       
      </div>

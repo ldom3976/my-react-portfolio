@@ -9,7 +9,7 @@ const styles = {
     maxHeight: '200px',
     maxWidth: '200px',
     borderRadius: '25%',
-    border: '3px solid #FF7875FF',
+    border: '3px solid #d29099',
     filter: 'opacity(100%)',
     cursor: 'default',
   },
