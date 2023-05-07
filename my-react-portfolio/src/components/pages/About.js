@@ -19,6 +19,7 @@ const styles = {
   space: {
     paddingLeft: '0.5rem',
     paddingRight: '0.5rem',
+    textAlign: 'center'
   }
 };
 

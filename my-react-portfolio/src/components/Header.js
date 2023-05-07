@@ -6,7 +6,6 @@ const styles = {
     backgroundColor: "#d29099",
   },
   navbarA: {
-    color: "#FF7875FF",
     fontSize: "19px",
   },
   h1: {

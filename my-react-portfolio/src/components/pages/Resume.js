@@ -12,8 +12,9 @@ const styles = {
     paddingRight: "0.5rem",
     textAlign: "center"
   },
-  h3: {
+  h4: {
     paddingTop: "0.75rem",
+    
   },
 };
 
@@ -25,9 +26,9 @@ const styles = {
          My Resume.
        </p>
 
-      <h3 style={styles.h3}>Technical Skills Learned through Coding Bootcamp</h3>
+      <h4 style={styles.h4}>Technical Skills Learned through Coding Bootcamp:</h4>
       <p>
-        <h4>Front-End:</h4>
+        <h5>Front-End:</h5>
         
           <li>HTML</li>
           <li>CSS</li>
@@ -39,7 +40,7 @@ const styles = {
       </p>
 
       <p>
-        <h4>Back-End</h4>
+        <h5>Back-End:</h5>
         
           <li>MySQL</li>
           <li>MongoDB & Mongoose</li>
