@@ -1,5 +1,13 @@
 import React from 'react';
 
+const styles = {
+  icons: {
+    borderRadius: '25%',
+    filter: 'opacity(100%)',
+    margin: '5px',
+  },
+};
+
  function Footer() {
    return (
      <ul className="nav">
@@ -10,6 +18,6 @@ import React from 'react';
        </li>
        </ul>
        );
-    }
+    };
 
     export default Footer;
