@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import ElishaBallard from "../../img/elishaballard.jpg";
 
 const styles = {
@@ -9,7 +9,7 @@ const styles = {
     maxHeight: '200px',
     maxWidth: '200px',
     borderRadius: '25%',
-    border: '3px solid',
+    border: '3px solid #FF7875FF',
     filter: 'opacity(100%)',
     cursor: 'default',
   },
@@ -30,10 +30,10 @@ const styles = {
         <img style={styles.elishaballard} src={ElishaBallard} alt="Elisha Ballard" />
        </div>
        <p>
-         I am a UNC Chapel Hill Bootcamp student who's currently learning full-stack web development. Cuurently 
+         Hello! I am a UNC Chapel Hill Bootcamp student who's currently learning full-stack web development. Currently 
          I work as a contracted corporate and leisure reservation specialist. I am an ambitious and self-motivated
          individual who is able to adapt quickly and thrive in fast-paced, deadline driven environments. I work closely with clients
-         to provide personalized experiences, and am able to work efficiently individually and as part of a team.
+         to provide personalized experiences, and am able to work efficiently individually as well as part of a team.
         As a coding bootcamp student, I am constantly learning and improving my skills and collaborating with my peers.
        </p>
      </div>
