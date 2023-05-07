@@ -2,6 +2,25 @@ import React, { useState } from "react";
 
 import { validateEmail } from "../../utils/helpers";
 
+const styles = {
+  h2: {
+    textAlign: "center",
+  },
+  form: {
+    textAlign: "center",
+  },
+  email: {
+    textAlign: "center",
+    color: "#FF7875FF",
+  },
+  input: {
+    margin: "0.5rem",
+  },
+  inputA: {
+    height: "4rem",
+  },
+};
+
 function Form() {
   const [email, setEmail] = useState("");
   const [Name, setName] = useState("");
@@ -49,49 +68,64 @@ function Form() {
     setMessage("");
     setEmail("");
   };
-};
+
 
 return (
   <div>
-    <h2>Contact</h2>
+    <h2 style={styles.h2}>Contact</h2>
+    <div style={styles.email}>
+      <a href="mailto:emballard9@gmail.com">emballard9@gmail.com</a>
+    </div>
     
-    <form className="form">
-      <div>
+    <form action="mailto:emballard9@gmail.com" method= "post" encType="text/plain" style={styles.form} className="form">
+
+    <div style={styles.input}>
       <input
         value={email}
         name="email"
         onChange={handleInputChange}
         type="email"
         placeholder="email"
+        required
       />
       </div>
-      <div>
+
+      <div style={styles.input}>
       <input
         value={Name}
         name="Name"
         onChange={handleInputChange}
         type="text"
         placeholder="name"
+        required
       />
       </div>
+
+      <div style={styles.input}>
       <input
+        style={styles.inputA}
         value={message}
         name="message"
         onChange={handleInputChange}
         type="message"
         placeholder="message"
+        required
       />
+      </div>
+
       <div>
       <button type="button" onClick={handleFormSubmit}>Submit</button>
       </div>
     </form>
-    {errorMessage && (
-      <div>
-        <p className="error-text">{errorMessage}</p>
+
+    {successMessage && (
+      <div style={styles.form}>
+        <p className="success-text">{successMessage}</p>
       </div>
     )}
   </div>
 );
+};   
 
 
 export default Form;
