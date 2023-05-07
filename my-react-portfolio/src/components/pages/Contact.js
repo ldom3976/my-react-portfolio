@@ -113,7 +113,7 @@ return (
       />
       </div>
 
-      <div>
+      <div style={styles.btn}>
       <button type="button" onClick={handleFormSubmit}>Submit</button>
       </div>
     </form>
