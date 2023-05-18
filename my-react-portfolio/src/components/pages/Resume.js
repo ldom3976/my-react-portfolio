@@ -1,4 +1,5 @@
 import React from "react";
+import ElishaResume from "../../pdf/resume.pdf";
 
 const styles = {
   h2: {
@@ -22,9 +23,11 @@ const styles = {
    return (
     <div style={styles.space}>
        <h2 style={styles.h2}>Resume</h2>
-       <p>
-         My Resume.
-       </p>
+       <p style={styles.h2}>
+        <a style={styles.link} href={ElishaResume} download>
+          Download Full Resume
+        </a>
+      </p>
 
       <h4 style={styles.h4}>Technical Skills Learned through Coding Bootcamp:</h4>
       <p>
@@ -52,4 +55,4 @@ const styles = {
       
      </div>
    );
- }
+ };
