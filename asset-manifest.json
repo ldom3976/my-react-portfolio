@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.b2f7cc5b.css",
+    "main.js": "/my-react-portfolio/static/js/main.c07d81c6.js",
+    "static/media/mapsrusscreen.png": "/my-react-portfolio/static/media/mapsrusscreen.f21982985dff4af4bc23.png",
+    "static/media/weather-dashboard.png": "/my-react-portfolio/static/media/weather-dashboard.e175e5d227e1631ba9d4.png",
+    "static/media/teamscreen.png": "/my-react-portfolio/static/media/teamscreen.c0e66718a5bf1a60510a.png",
+    "static/media/notetakerscreen.png": "/my-react-portfolio/static/media/notetakerscreen.392ea2f30fee9898320c.png",
+    "static/media/socialnetapi.png": "/my-react-portfolio/static/media/socialnetapi.83b89d1a085260f0f440.png",
+    "static/media/elishaballard.jpg": "/my-react-portfolio/static/media/elishaballard.76cb2e22f833914aac07.jpg",
+    "static/media/wrkdsc.jpeg": "/my-react-portfolio/static/media/wrkdsc.f1b27aed37b6ac2ba754.jpeg",
+    "static/media/resume.pdf": "/my-react-portfolio/static/media/resume.fc3372d9cc9ec713fe59.pdf",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.b2f7cc5b.css.map": "/my-react-portfolio/static/css/main.b2f7cc5b.css.map",
+    "main.c07d81c6.js.map": "/my-react-portfolio/static/js/main.c07d81c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2f7cc5b.css",
+    "static/js/main.c07d81c6.js"
+  ]
+}
