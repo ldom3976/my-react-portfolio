@@ -22,7 +22,8 @@ This is my portfolio created with React and bootstrap. This page includes some i
 - Run npm i inside terminal to install packages.
 - Run npm start to open React app.
 
-link here
+Link to deployed page:
+ https://ldom3976.github.io/my-react-portfolio/
 
 ## Visual Representation
 
